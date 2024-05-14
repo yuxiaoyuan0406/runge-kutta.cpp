@@ -3,7 +3,7 @@ CWD := $(shell pwd)
 PROJECT_NAME := $(shell basename $(CWD))
 TARGET_EXEC := $(PROJECT_NAME)
 
-DEBUG := 0
+# DEBUG := 0
 
 BUILD_DIR := ./build
 SRC_DIRS := ./src
