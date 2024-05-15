@@ -106,6 +106,11 @@ public:
             result[i] = f(x[i]);
         return result;
     }
+
+    array<ValueType> pick(size_type index)
+    {
+        
+    }
 };
 
 #define DEFINE_ARRAY_OPERATOR_IMPL(op)                                   \
